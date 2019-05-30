@@ -12,8 +12,12 @@ function scrapeTag(url, regex) {
 
   var response, code, page, match;
 
+  var requestHeaders = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Safari/537.36'
+  };
+
   try {
-    response = UrlFetchApp.fetch(url);
+    response = UrlFetchApp.fetch(url, requestHeaders);
     page = response.getContentText();
     code = response.getResponseCode();
     match = page.match(regex);
