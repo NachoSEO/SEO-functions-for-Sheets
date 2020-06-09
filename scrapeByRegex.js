@@ -8,7 +8,7 @@
 
 function removeHtml(match) {
   const [ firstMatch ] = match;
-  return match.replace(/<[^>]*>?/gmi, "");
+  return firstMatch.replace(/<[^>]*>?/gmi, "");
 }
 
 /**
