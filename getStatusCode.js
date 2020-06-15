@@ -2,7 +2,7 @@
  * Get the Status Code of an URL
  *
  * @param {string} url The URL to get the status
- * @return The Status Code of the requested page
+ * @return {number} The Status Code of the requested page
  * @customfunction
  */
 
