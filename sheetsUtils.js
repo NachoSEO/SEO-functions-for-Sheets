@@ -10,7 +10,6 @@ function groupByCell(cells) {
   return cells.toString();
 }
 
-
 /**
  * Returns the last value of an array of cells 
  * filtering empty/falsy values
@@ -44,4 +43,18 @@ function returnCellInversed(cells, inverseIndex) {
     .filter(item => item)
     .reverse()
     [inverseIndex];
+}
+
+/**
+ * Replace a string or substring for another one
+ * 
+ * @param {string} str String affected
+ * @param {string} charToReplace String/Substring that's gonna be replaced
+ * @param {string} charReplaced The new value of the replaced string
+ * @returns {string} - The string replaced
+ * @customfunction
+ */
+
+function myReplace(str, charToReplace, charReplaced) {
+  return str.replace(charToReplace, charReplaced)
 }
