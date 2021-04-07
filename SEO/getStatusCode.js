@@ -14,6 +14,7 @@ function getStatusCode(url) {
     const options = {
       url: url,
       followRedirects: false,
+      muteHttpExceptions: true,
       headers: requestHeaders
     }
    

@@ -2,7 +2,7 @@
  * Remove HTML tags
  *
  * @param {Array} match The HTML you want to modify
- * @return {string} The content within HTML removing the HTML tags.
+ * @return {String} The content within HTML removing the HTML tags.
  * @customfunction
  */
 
@@ -14,10 +14,10 @@ function removeHtml(match) {
 /**
  * Scrape anything that you want with Regex
  *
- * @param {string} url The URL you want to scrape
- * @param {regex} regex Regex that will select a part of the HTML of the URL
- * @param {boolean} removeTag Set to True if you want to remove the HTML tags
- * @return {string} The HTML tag with its content or just the inner content.
+ * @param {String} url The URL you want to scrape
+ * @param {Regex} regex Regex that will select a part of the HTML of the URL
+ * @param {Boolean} removeTag Set to True if you want to remove the HTML tags
+ * @return {String} The HTML tag with its content or just the inner content.
  * @customfunction
  */
 
