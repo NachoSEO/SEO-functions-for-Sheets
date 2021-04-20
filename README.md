@@ -12,3 +12,4 @@ In this repo you'll find a set of custom functions related to improve SEO work o
 | returnCellInversed | Utility | Returns the value of a specific value by its inversed position filtering empty/falsy values  |
 | returnLastCell     | Utility | Returns the last value of an array of cells filtering empty/falsy values                     |
 | v2lookup           | Utility | Vertical lookup using two elements to get a value in specified index                         |
+| unlimitedVlookup   | Utility | Vertical lookup using N elements to get a value in specified index                           |
