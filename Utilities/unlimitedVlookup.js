@@ -1,5 +1,5 @@
 /**
- * Vertical lookup using two elements to find an output
+ * Vertical lookup using unlimited elements to find an output
  * 
  * @param {Array} matrix Data to search for
  * @param {Number} index Column where the to find the data
