@@ -1,6 +1,6 @@
 /**
  * Returns the last value of an array of cells 
- * filtering empty/falsy values
+ * filtering empty & falsy values 
  * 
  * @param {Array} cells List of cells that will be checked
  * @returns {String} - The last value of a group of cells.

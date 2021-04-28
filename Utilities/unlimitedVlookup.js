@@ -4,7 +4,7 @@
  * @param {Array} matrix Data to search for
  * @param {Number} index Column where the to find the data
  * @param {String} firstItem First item to match
- * @param {...Object} args Second item to match
+ * @param {...Object} args Rest of elements to match
  * @returns {String} - The string matched with the specified criteria
  * @customfunction
  */
