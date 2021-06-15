@@ -6,6 +6,7 @@ In this repo you'll find a set of custom functions related to improve SEO work o
 |--------------------|---------|----------------------------------------------------------------------------------------------|
 | getStatusCode      | SEO     | Get the status code of the URL requested                                                     |
 | scrapeByRegex      | SEO     | Scrape an element from an URL using regex                                                    |
+| getRunRate         | SEO     | Returns the (traffic) run rate from an array of numbers                                      |
 | existsInColumn     | Utility | Returns (True or False) if a value (literal & substring too) is in a column                  |
 | groupByCell        | Utility | Group a number of cells in only one                                                          |
 | myReplace          | Utility | Replace a string or substring for another one (because REPLACE function from sheet is awful) |
