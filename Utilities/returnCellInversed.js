@@ -10,6 +10,7 @@
 
  function returnCellInversed(cells, inverseIndex) {
   const arr = cells.toString().split(',');
+  
   return arr
     .filter(item => item)
     .reverse()

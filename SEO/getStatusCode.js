@@ -20,8 +20,10 @@ function getStatusCode(url) {
    
     try {
       const response = UrlFetchApp.fetch(url, options);
+      
       return response.getResponseCode();
     } catch(e) {
+      
       return 'Error: unable to return any Status Code';
     }
   }

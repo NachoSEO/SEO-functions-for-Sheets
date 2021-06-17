@@ -9,6 +9,7 @@
 
  function returnLastCell(cells) {
   const arr = cells.toString().split(',');
+  
   return arr
     .filter(item => item)
     .reverse()

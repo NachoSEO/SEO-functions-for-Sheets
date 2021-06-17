@@ -43,9 +43,11 @@ function scrapeByRegex(url, regex, removeTag) {
       }
       return match;
     } else {
+      
       return `Error: Status code returned: ${statusCode}`;
     }
   } catch (e) {
+    
     return "Error: " + e;
   }
 }
